@@ -1,0 +1,21 @@
+{
+  "name": "interview-preparation",
+  "version": "1.0.0",
+  "description": "Interview preparation materials for LeetCode, JavaScript, and Architecture",
+  "type": "module",
+  "scripts": {
+    "leetcode": "tsx",
+    "js": "node",
+    "architecture": "tsx",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["interview", "leetcode", "frontend", "architecture", "solid"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
