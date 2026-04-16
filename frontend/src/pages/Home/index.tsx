@@ -1,48 +1,15 @@
-import { useActionState } from 'react'
-
-type FormState = {
-  message: string
-  items: string[]
-}
-
-async function addItemAction(
-  prevState: FormState,
-  formData: FormData
-): Promise<FormState> {
-  await new Promise((resolve) => setTimeout(resolve, 1000))
-
-  const item = formData.get('item') as string
-
-  if (!item.trim()) {
-    return { ...prevState, message: 'O campo não pode estar vazio.' }
-  }
-
-  if (prevState.items.includes(item)) {
-    return { ...prevState, message: `"${item}" já existe na lista.` }
-  }
-
-  return {
-    message: `"${item}" adicionado com sucesso!`,
-    items: [...prevState.items, item],
-  }
-}
-
-const initialState: FormState = {
-  message: '',
-  items: [],
-}
+import { useCounter } from '@/components/Counter/useCounter'
 
 function Home() {
-  const [state, formAction, isPending] = useActionState(
-    addItemAction,
-    initialState
-  )
+  const { counter, increment } = useCounter();
 
   return (
     <div className="app">
-      <h1>useActionState Example</h1>
-
-      <form action={formAction}>
+      <h1> {counter} </h1>
+      <button onClick={increment}>
+        Increment
+      </button>
+      {/* <form action={formAction}>
         <input
           type="text"
           name="item"
@@ -63,7 +30,7 @@ function Home() {
         {state.items.map((item) => (
           <li key={item}>{item}</li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   )
 }
