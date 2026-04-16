@@ -11,7 +11,6 @@
 const words = ["kuvp", "q"], order = "ngxlkthsjuoqcpavbfdermiywz"
 
 function isAlienSorted(words: string[], order: string): boolean {
-    // Map each letter to its position in the alien alphabet - O(26)
     const letterWeight = new Map<string, number>();
 
     for (let i = 0; i < order.length; i++) {

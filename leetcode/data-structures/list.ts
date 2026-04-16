@@ -4,7 +4,7 @@
  * Common linked list operations frequently asked in coding interviews.
  */
 
-class ListNode {
+export class ListNode {
     value: number;
     next: ListNode | null;
 
