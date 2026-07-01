@@ -33,8 +33,16 @@ class LinkedList:
             print(current.val)
             current = current.next
 
-list = LinkedList(ListNode(10))
-list.prepend(5)
-list.prepend(-5)
-list.append(25)
-list.printValues()
+
+def print_linked_list(head : ListNode):
+    current = head
+    
+    while(current):
+        print(current.val)
+        current = current.next
+
+# list = LinkedList(ListNode(10))
+# list.prepend(5)
+# list.prepend(-5)
+# list.append(25)
+# list.printValues()
