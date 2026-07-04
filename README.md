@@ -12,6 +12,7 @@ A repository containing study materials for technical interviews.
 │   ├── concurrency/                 # Concurrency problems
 │   ├── data-structures/             # Custom implementations
 │   ├── dynamic-programming/         # Dynamic programming problems
+│   ├── intervals/                   # Intervals
 │   ├── linked-list/                 # Linked list problems
 │   ├── stacks/                      # Stack-based problems
 │   ├── strings/                     # String manipulation

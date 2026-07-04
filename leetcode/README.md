@@ -77,6 +77,8 @@ npm run leetcode leetcode/strings/longest-substring-without-repeating.ts
 
 | File | Problem | Technique |
 |------|---------|-----------|
+| `205_isomorphic_strings.py` | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | TBD |
+| `58_lenght_of_last_word.py` | [58. Lenght Of Last Word](https://leetcode.com/problems/lenght-of-last-word/) | TBD |
 | `binary-search.ts` | Binary Search | Binary Search |
 | `is-alien-sorted.ts` | [953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Hash Map |
 | `lru-cache.ts` | LRU Cache | TBD |
