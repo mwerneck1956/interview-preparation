@@ -11,9 +11,11 @@ A repository containing study materials for technical interviews.
 ├── leetcode/                        # Algorithm and data structure problems
 │   ├── concurrency/                 # Concurrency problems
 │   ├── data-structures/             # Custom implementations
+│   ├── divide-and-conquer/          # Divide And Conquer
 │   ├── dynamic-programming/         # Dynamic programming problems
 │   ├── intervals/                   # Intervals
 │   ├── linked-list/                 # Linked list problems
+│   ├── sliding-window/              # Sliding Window
 │   ├── stacks/                      # Stack-based problems
 │   ├── strings/                     # String manipulation
 │   └── trees/                       # Binary tree problems
@@ -41,3 +43,4 @@ npm run architecture architecture/OCP/ocp.ts
 - [Frontend](./frontend/README.md)
 - [JavaScript Fundamentals](./javascript-fundamentals/README.md)
 - [LeetCode Problems](./leetcode/README.md)
+- [Trees](./leetcode/trees/README.md)

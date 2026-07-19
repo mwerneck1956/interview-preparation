@@ -15,20 +15,6 @@ npm run leetcode leetcode/strings/longest-substring-without-repeating.ts
 
 ## Contents
 
-### Trees (`trees/`)
-
-| File | Problem | Technique |
-|------|---------|-----------|
-| `108-convert-sorted-array-to-tree.py` | [108. Convert Sorted Array To Tree](https://leetcode.com/problems/convert-sorted-array-to-tree/) | TBD |
-| `671_merge_bin_trees.py` | [671. Merge Bin Trees](https://leetcode.com/problems/merge-bin-trees/) | TBD |
-| `average-of-levels.ts` | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | BFS |
-| `invert-tree.ts` | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | DFS Recursion |
-| `level-order-traversal.ts` | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | BFS/DFS |
-| `max-depth.ts` | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | DFS Recursion |
-| `path-sum.ts` | [112. Path Sum](https://leetcode.com/problems/path-sum/) | DFS Recursion |
-| `same-tree.ts` | [100. Same Tree](https://leetcode.com/problems/same-tree/) | DFS Recursion |
-| `tree.py` | Tree | TBD |
-
 ### Strings (`strings/`)
 
 | File | Problem | Technique |
@@ -40,6 +26,7 @@ npm run leetcode leetcode/strings/longest-substring-without-repeating.ts
 | File | Problem | Technique |
 |------|---------|-----------|
 | `20-valid-parentheses.py` | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | TBD |
+| `921-min-to-parentheses-valid.py` | [921. Min To Parentheses Valid](https://leetcode.com/problems/min-to-parentheses-valid/) | TBD |
 | `valid-parentheses.ts` | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack |
 
 ### Linked Lists (`linked-list/`)
