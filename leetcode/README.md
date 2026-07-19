@@ -39,6 +39,7 @@ npm run leetcode leetcode/strings/longest-substring-without-repeating.ts
 
 | File | Problem | Technique |
 |------|---------|-----------|
+| `20-valid-parentheses.py` | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | TBD |
 | `valid-parentheses.ts` | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack |
 
 ### Linked Lists (`linked-list/`)
